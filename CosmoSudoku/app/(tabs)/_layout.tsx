@@ -4,7 +4,6 @@ import { Link, Tabs } from 'expo-router';
 import { Pressable } from 'react-native';
 
 import Colors from '@/constants/Colors';
-import { useClientOnlyValue } from '@/components/useClientOnlyValue';
 
 // You can explore the built-in icon families and icons on the web at https://icons.expo.fyi/
 function TabBarIcon(props: {
@@ -23,9 +22,6 @@ export default function TabLayout() {
           backgroundColor: Colors.primary,
         },
         tabBarInactiveTintColor: Colors.textSecondary,
-        // Disable the static render of the header on web
-        // to prevent a hydration error in React Navigation v6.
-        headerShown: useClientOnlyValue(false, true),
       }}
     >
       <Tabs.Screen
@@ -53,7 +49,7 @@ export default function TabLayout() {
         name="two"
         options={{
           title: 'Jogo',
-          tabBarIcon: ({ color }) => <TabBarIcon name="gamepad-o" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="gamepad" color={color} />,
         }}
       />
     </Tabs>

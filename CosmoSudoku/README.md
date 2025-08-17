@@ -96,10 +96,6 @@ CosmoSudoku/
 │   ├── +html.tsx          # Configuração HTML (web)
 │   └── modal.tsx          # Modal de configurações
 ├── components/            # Componentes reutilizáveis
-│   ├── ExternalLink.tsx
-│   ├── StyledText.tsx
-│   ├── useClientOnlyValue.ts
-│   └── index.ts          # Exportações centralizadas
 ├── constants/             # Constantes da aplicação
 │   ├── Colors.ts         # Paleta de cores espaciais
 │   └── index.ts
