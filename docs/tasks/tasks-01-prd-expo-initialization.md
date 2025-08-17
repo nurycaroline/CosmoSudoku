@@ -36,7 +36,7 @@ Baseado no PRD: `prd-01-expo-initialization.md`
   - [x] 1.2 Executar `npx create-expo-app@latest CosmoSudoku --template`
   - [x] 1.3 Template selecionado: "Navigation (TypeScript)" - MELHOR opção (inclui Expo Router)
   - [x] 1.4 Navegado para diretório do projeto - Expo Router já instalado, adicionado expo-constants
-  - [x] 1.5 Projeto testado e funcionando - Build web executado com sucesso (7 rotas estáticas)
+  - [x] 1.5 Projeto testado e funcionando - Estrutura mobile configurada corretamente
 
 - [x] 2.0 Configurar Expo Router e Estrutura de Arquivos
   - [x] 2.1 Plugin "expo-router" já configurado no app.json (com typedRoutes habilitado)

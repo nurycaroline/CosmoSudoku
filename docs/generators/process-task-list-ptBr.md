@@ -14,11 +14,11 @@ Diretrizes para gerenciar listas de tarefas em arquivos markdown para acompanhar
       - Use o formato de commit convencional (`feat:`, `fix:`, `refactor:`, etc.).
       - Resuma o que foi realizado na tarefa principal.
       - Liste as principais alterações e adições.
-      - Faça referência ao número da tarefa e ao contexto do PRD.
+      - Faça referência ao arquivo de tarefas com **caminho completo** (ex: `docs/tasks/tasks-01-exemplo.md`).
       - **Formate a mensagem como um comando de linha única usando as flags `-m`**, por exemplo:
 
         ```
-        git commit -m "feat: adiciona lógica de validação de pagamento" -m "- Valida o tipo e a data de validade do cartão" -m "- Adiciona testes unitários para casos de borda" -m "Relacionado a T123 no PRD"
+        git commit -m "feat: adiciona lógica de validação de pagamento" -m "- Valida o tipo e a data de validade do cartão" -m "- Adiciona testes unitários para casos de borda" -m "Related to docs/tasks/tasks-01-validacao-pagamento.md"
         ```
   3. Assim que todas as subtarefas forem marcadas como concluídas e as alterações tiverem sido commitadas, marque a **tarefa principal** como concluída.
 - Pare após cada subtarefa e aguarde a aprovação do usuário.

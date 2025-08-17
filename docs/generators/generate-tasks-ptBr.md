@@ -73,5 +73,5 @@ Ao gerar tarefas para projetos Expo, certifique-se de:
 - **Usar comandos atualizados:** Prefira `npx expo` em vez de `expo` global
 - **Seguir estruturas recomendadas:** Use Expo Router para navegação, estrutura de pastas oficial
 - **Incluir dependências corretas:** Especifique versões compatíveis com o SDK do Expo
-- **Considerar plataformas:** Mencione diferenças entre iOS, Android e Web quando aplicável
+- **Considerar plataformas:** Mencione diferenças entre iOS e Android quando aplicável
 - **Aplicar melhores práticas:** Configuração de TypeScript, ESLint, e outras ferramentas recomendadas
