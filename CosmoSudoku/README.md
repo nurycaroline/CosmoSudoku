@@ -59,8 +59,6 @@ npm run ios
 # Executar no Android Emulator
 npm run android
 
-# Executar no navegador web
-npm run web
 ```
 
 ### Scripts Disponíveis
@@ -70,7 +68,6 @@ npm run web
 npm start          # Inicia o servidor Expo
 npm run ios        # Executa no iOS
 npm run android    # Executa no Android
-npm run web        # Executa no navegador
 
 # Qualidade de Código
 npm run lint       # Verifica problemas de código
@@ -93,7 +90,6 @@ CosmoSudoku/
 │   │   ├── index.tsx      # Tela Home
 │   │   └── two.tsx        # Tela Jogo
 │   ├── +not-found.tsx     # Página 404
-│   ├── +html.tsx          # Configuração HTML (web)
 │   └── modal.tsx          # Modal de configurações
 ├── components/            # Componentes reutilizáveis
 ├── constants/             # Constantes da aplicação
@@ -154,7 +150,6 @@ import { MyComponent } from '@/components';
 
 - ✅ **iOS** (iPhone/iPad)
 - ✅ **Android** (Phone/Tablet)
-- ✅ **Web** (Navegadores modernos)
 
 ## 🎯 Próximos Passos
 
